@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./success1.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IM FELL English:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Acme:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="success">
+      <div class="success-page">
+        <div class="success-page-inner">
+          <div class="frame-parent18">
+            <div class="successmark-parent">
+              <div class="successmark">
+                <img class="sticker-icon" alt="" src="public/sticker.svg" />
+              </div>
+              <div class="text">
+                <b class="succesfully-shared">Succesfully shared!</b>
+              </div>
+            </div>
+            <button class="frame-wrapper4" id="frameButton">
+              <div class="back-to-dashboard-wrapper">
+                <b class="back-to-dashboard">Back to Dashboard</b>
+              </div>
+            </button>
+          </div>
+        </div>
+        <img class="shape-icon1" alt="" src="public/shape1.svg" />
+        <div class="success-page-child"></div>
+      </div>
+    </div>
+
+    <script>
+      var frameButton = document.getElementById("frameButton");
+      if (frameButton) {
+        frameButton.addEventListener("click", function (e) {
+          window.location.href = "./dashboard.html";
+        });
+      }
+      </script>
+  </body>
+</html>
